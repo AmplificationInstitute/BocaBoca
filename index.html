@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>BocaBoca — On pause</title>
+<meta name="description" content="BocaBoca is taking a pause. Get in touch or leave your email to hear when we're back.">
+<meta name="theme-color" content="#1e8c7a">
+<meta property="og:title" content="BocaBoca — On pause">
+<meta property="og:description" content="BocaBoca is taking a pause. Get in touch or leave your email to hear when we're back.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://bocaboca.co">
+<style>
+  :root {
+    --teal: #1e8c7a;
+    --teal-dark: #15665a;
+    --ink: #17332e;
+    --paper: #f7f5f0;
+    --muted: #5c6f6b;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background: var(--paper);
+    color: var(--ink);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .band {
+    background: var(--teal);
+    padding: 1.25rem 1.5rem;
+  }
+  .wordmark {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: 1.4rem;
+    letter-spacing: -0.02em;
+    color: #fff;
+  }
+  main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1.5rem;
+  }
+  .card { max-width: 40rem; }
+  h1 {
+    font-size: clamp(1.9rem, 5vw, 2.8rem);
+    line-height: 1.15;
+    margin-bottom: 1.25rem;
+  }
+  h1 em { color: var(--teal); font-style: italic; }
+  p { font-size: 1.1rem; line-height: 1.65; margin-bottom: 1rem; color: var(--ink); }
+  p.quiet { color: var(--muted); font-size: 1rem; }
+  .cta {
+    display: inline-block;
+    margin: 1.25rem 0 0.5rem;
+    background: var(--teal);
+    color: #fff;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1.05rem;
+    padding: 0.85rem 1.6rem;
+    border-radius: 999px;
+    transition: background 0.15s ease;
+  }
+  .cta:hover { background: var(--teal-dark); }
+  .fallback {
+    font-size: 0.95rem;
+    color: var(--muted);
+    margin-top: 0.75rem;
+  }
+  .fallback a { color: var(--teal); }
+  footer {
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--muted);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  }
+</style>
+</head>
+<body>
+  <div class="band"><span class="wordmark">BocaBoca</span></div>
+  <main>
+    <div class="card">
+      <h1>We're taking a <em>pause</em>.</h1>
+      <p>BocaBoca — a directory where real independent businesses get found, with no ads and no algorithm — is on hold while we figure out its next chapter.</p>
+      <p>If you'd like to hear when we're back, or you're interested in helping run and grow BocaBoca as a co-founder, we'd love to hear from you.</p>
+      <a class="cta" href="mailto:marie.monet@amplificationinstitute.com?subject=BocaBoca%20inquiry">Email us</a>
+      <p class="fallback">Button not working? Write to <a href="mailto:marie.monet@amplificationinstitute.com">marie.monet@amplificationinstitute.com</a></p>
+      <p class="quiet">Thank you to every business owner and neighbor who listed, searched, and cheered us on.</p>
+    </div>
+  </main>
+  <footer>© 2026 BocaBoca · Made in DeLand, Florida</footer>
+</body>
+</html>
